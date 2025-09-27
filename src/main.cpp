@@ -29,11 +29,7 @@ void opcontrol() {
 	pros::Controller controller(pros::E_CONTROLLER_MASTER);
 
 	while (true) {
-		chassis.move_voltage(
-			((float)controller.get_analog(pros::E_CONTROLLER_ANALOG_LEFT_Y) / 127.0) * maxVoltageMv,
-			((float)controller.get_analog(pros::E_CONTROLLER_ANALOG_RIGHT_X) / 127.0) * maxVoltageMv
-		);
-
+		chassis.arcade(controller, lightning::E_TANK_OP_ARCADE_DOUBLE);
 		pros::delay(lightning::util::DELAY_TIME);
 	}
 }
