@@ -1,0 +1,27 @@
+{
+    "py/object": "pros.conductor.templates.external_template.ExternalTemplate",
+    "py/state": {
+        "metadata": {},
+        "name": "lightninglib",
+        "supported_kernels": "^4.1.0",
+        "system_files": [
+            "include\\lightninglib\\MotionLightReader.hpp",
+            "include\\lightninglib\\util.hpp",
+            "include\\lightninglib\\Trapezoidal.hpp",
+            "include\\lightninglib\\FeedForward.hpp",
+            "include\\lightninglib\\Odom_tracker.hpp",
+            "include\\lightninglib\\PurePursuit.hpp",
+            "include\\lightninglib\\Math.h",
+            "firmware\\lightninglib.a",
+            "include\\lightninglib\\TankChassis.h",
+            "include\\lightninglib\\TasksCreator.hpp",
+            "include\\lightninglib\\lightning_api.h",
+            "include\\lightninglib\\Path.hpp",
+            "include\\lightninglib\\PID.hpp",
+            "include\\lightninglib\\TankChassis.hpp"
+        ],
+        "target": "v5",
+        "user_files": [],
+        "version": "1.2.0-beta.2"
+    }
+}
